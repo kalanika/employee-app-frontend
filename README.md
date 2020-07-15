@@ -1,17 +1,20 @@
-# Easy User Authentication for React Apps
+# Employee Application front end 
 
-This repository hosts a React project that defines a Single-Page Application (SPA). You'll secure access to some of its routes using Auth0 User Authentication.
+This Front end application is implemented using react.js and integrated with auth0 for authentication
 
-## Get Started
+## Setup
 
-Install the client project dependencies:
+1.To install all dependencies run
 
-```bash
-yarn
-```
+npm install
 
-Run the client project:
+2.Start the app
+Application is running on port 3000
 
-```bash
-yarn start
-```
+npm start port -3000
+
+User can login using google account or can create an account and login once login to the application redirect to employee search page user can search employee id and the salary details will be shown in a card view.User can logout from the application and user will be redirect to the homepage
+
+
+
+
